@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BACBB0A71F2976C800618967 /* HCScrollForeverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB09A1F2976C800618967 /* HCScrollForeverView.m */; };
+		BACBB0A81F2976C800618967 /* HCShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB09C1F2976C800618967 /* HCShowImageViewController.m */; };
+		BACBB0A91F2976C800618967 /* HCShowScrollForeverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB09E1F2976C800618967 /* HCShowScrollForeverViewController.m */; };
+		BACBB0AA1F2976C800618967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0A11F2976C800618967 /* AppDelegate.m */; };
+		BACBB0AB1F2976C800618967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0A21F2976C800618967 /* main.m */; };
+		BACBB0AC1F2976C800618967 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0A41F2976C800618967 /* ViewController.m */; };
+		BACBB0B21F297A4F00618967 /* HCCollectionForeverView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0AF1F297A4F00618967 /* HCCollectionForeverView.m */; };
+		BACBB0B31F297A4F00618967 /* HCCollectionForeverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0B11F297A4F00618967 /* HCCollectionForeverViewCell.m */; };
+		BACBB0B91F297C0B00618967 /* HCCardCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0B61F297C0B00618967 /* HCCardCollectionView.m */; };
+		BACBB0BA1F297C0B00618967 /* HCCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0B81F297C0B00618967 /* HCCollectionViewCell.m */; };
+		BACBB0BE1F297F8300618967 /* HCCardScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BACBB0BD1F297F8300618967 /* HCCardScrollView.m */; };
+		BAE562151F1F2FD600624E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE562131F1F2FD600624E1B /* Main.storyboard */; };
+		BAE562171F1F2FD600624E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAE562161F1F2FD600624E1B /* Assets.xcassets */; };
+		BAE5621A1F1F2FD600624E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAE562181F1F2FD600624E1B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BACBB0991F2976C800618967 /* HCScrollForeverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCScrollForeverView.h; sourceTree = "<group>"; };
+		BACBB09A1F2976C800618967 /* HCScrollForeverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCScrollForeverView.m; sourceTree = "<group>"; };
+		BACBB09B1F2976C800618967 /* HCShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShowImageViewController.h; sourceTree = "<group>"; };
+		BACBB09C1F2976C800618967 /* HCShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShowImageViewController.m; sourceTree = "<group>"; };
+		BACBB09D1F2976C800618967 /* HCShowScrollForeverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShowScrollForeverViewController.h; sourceTree = "<group>"; };
+		BACBB09E1F2976C800618967 /* HCShowScrollForeverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShowScrollForeverViewController.m; sourceTree = "<group>"; };
+		BACBB0A01F2976C800618967 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BACBB0A11F2976C800618967 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BACBB0A21F2976C800618967 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BACBB0A31F2976C800618967 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BACBB0A41F2976C800618967 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BACBB0AE1F297A4F00618967 /* HCCollectionForeverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCollectionForeverView.h; sourceTree = "<group>"; };
+		BACBB0AF1F297A4F00618967 /* HCCollectionForeverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCollectionForeverView.m; sourceTree = "<group>"; };
+		BACBB0B01F297A4F00618967 /* HCCollectionForeverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCollectionForeverViewCell.h; sourceTree = "<group>"; };
+		BACBB0B11F297A4F00618967 /* HCCollectionForeverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCollectionForeverViewCell.m; sourceTree = "<group>"; };
+		BACBB0B51F297C0B00618967 /* HCCardCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCardCollectionView.h; sourceTree = "<group>"; };
+		BACBB0B61F297C0B00618967 /* HCCardCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCardCollectionView.m; sourceTree = "<group>"; };
+		BACBB0B71F297C0B00618967 /* HCCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCollectionViewCell.h; sourceTree = "<group>"; };
+		BACBB0B81F297C0B00618967 /* HCCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCollectionViewCell.m; sourceTree = "<group>"; };
+		BACBB0BC1F297F8300618967 /* HCCardScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCCardScrollView.h; sourceTree = "<group>"; };
+		BACBB0BD1F297F8300618967 /* HCCardScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCCardScrollView.m; sourceTree = "<group>"; };
+		BAE562071F1F2FD600624E1B /* HCScrollViewForever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCScrollViewForever.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAE5620B1F1F2FD600624E1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAE562141F1F2FD600624E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAE562161F1F2FD600624E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAE562191F1F2FD600624E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAE5621B1F1F2FD600624E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE562041F1F2FD600624E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BACBB0921F2976C800618967 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0BB1F297F5900618967 /* HCCardScrollView */,
+				BACBB0B41F297C0B00618967 /* HCCardCollectionView */,
+				BACBB0AD1F297A4F00618967 /* HCCollectionForeverView */,
+				BACBB0981F2976C800618967 /* HCScrollForeverView */,
+				BACBB09B1F2976C800618967 /* HCShowImageViewController.h */,
+				BACBB09C1F2976C800618967 /* HCShowImageViewController.m */,
+				BACBB09D1F2976C800618967 /* HCShowScrollForeverViewController.h */,
+				BACBB09E1F2976C800618967 /* HCShowScrollForeverViewController.m */,
+				BACBB0A31F2976C800618967 /* ViewController.h */,
+				BACBB0A41F2976C800618967 /* ViewController.m */,
+				BACBB09F1F2976C800618967 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BACBB0981F2976C800618967 /* HCScrollForeverView */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0991F2976C800618967 /* HCScrollForeverView.h */,
+				BACBB09A1F2976C800618967 /* HCScrollForeverView.m */,
+			);
+			path = HCScrollForeverView;
+			sourceTree = "<group>";
+		};
+		BACBB09F1F2976C800618967 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0A01F2976C800618967 /* AppDelegate.h */,
+				BACBB0A11F2976C800618967 /* AppDelegate.m */,
+				BACBB0A21F2976C800618967 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		BACBB0AD1F297A4F00618967 /* HCCollectionForeverView */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0AE1F297A4F00618967 /* HCCollectionForeverView.h */,
+				BACBB0AF1F297A4F00618967 /* HCCollectionForeverView.m */,
+				BACBB0B01F297A4F00618967 /* HCCollectionForeverViewCell.h */,
+				BACBB0B11F297A4F00618967 /* HCCollectionForeverViewCell.m */,
+			);
+			path = HCCollectionForeverView;
+			sourceTree = "<group>";
+		};
+		BACBB0B41F297C0B00618967 /* HCCardCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0B51F297C0B00618967 /* HCCardCollectionView.h */,
+				BACBB0B61F297C0B00618967 /* HCCardCollectionView.m */,
+				BACBB0B71F297C0B00618967 /* HCCollectionViewCell.h */,
+				BACBB0B81F297C0B00618967 /* HCCollectionViewCell.m */,
+			);
+			path = HCCardCollectionView;
+			sourceTree = "<group>";
+		};
+		BACBB0BB1F297F5900618967 /* HCCardScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0BC1F297F8300618967 /* HCCardScrollView.h */,
+				BACBB0BD1F297F8300618967 /* HCCardScrollView.m */,
+			);
+			path = HCCardScrollView;
+			sourceTree = "<group>";
+		};
+		BAE561FE1F1F2FD600624E1B = {
+			isa = PBXGroup;
+			children = (
+				BAE562091F1F2FD600624E1B /* HCScrollViewForever */,
+				BAE562081F1F2FD600624E1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE562081F1F2FD600624E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE562071F1F2FD600624E1B /* HCScrollViewForever.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAE562091F1F2FD600624E1B /* HCScrollViewForever */ = {
+			isa = PBXGroup;
+			children = (
+				BACBB0921F2976C800618967 /* Classes */,
+				BAE562131F1F2FD600624E1B /* Main.storyboard */,
+				BAE562161F1F2FD600624E1B /* Assets.xcassets */,
+				BAE562181F1F2FD600624E1B /* LaunchScreen.storyboard */,
+				BAE5621B1F1F2FD600624E1B /* Info.plist */,
+				BAE5620A1F1F2FD600624E1B /* Supporting Files */,
+			);
+			path = HCScrollViewForever;
+			sourceTree = "<group>";
+		};
+		BAE5620A1F1F2FD600624E1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAE5620B1F1F2FD600624E1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAE562061F1F2FD600624E1B /* HCScrollViewForever */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE5621E1F1F2FD600624E1B /* Build configuration list for PBXNativeTarget "HCScrollViewForever" */;
+			buildPhases = (
+				BAE562031F1F2FD600624E1B /* Sources */,
+				BAE562041F1F2FD600624E1B /* Frameworks */,
+				BAE562051F1F2FD600624E1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCScrollViewForever;
+			productName = HCScrollViewForever;
+			productReference = BAE562071F1F2FD600624E1B /* HCScrollViewForever.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE561FF1F1F2FD600624E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = UltraPower;
+				TargetAttributes = {
+					BAE562061F1F2FD600624E1B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7493A8H4M8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAE562021F1F2FD600624E1B /* Build configuration list for PBXProject "HCScrollViewForever" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAE561FE1F1F2FD600624E1B;
+			productRefGroup = BAE562081F1F2FD600624E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE562061F1F2FD600624E1B /* HCScrollViewForever */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAE562051F1F2FD600624E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAE5621A1F1F2FD600624E1B /* LaunchScreen.storyboard in Resources */,
+				BAE562171F1F2FD600624E1B /* Assets.xcassets in Resources */,
+				BAE562151F1F2FD600624E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE562031F1F2FD600624E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BACBB0B91F297C0B00618967 /* HCCardCollectionView.m in Sources */,
+				BACBB0AC1F2976C800618967 /* ViewController.m in Sources */,
+				BACBB0A81F2976C800618967 /* HCShowImageViewController.m in Sources */,
+				BACBB0BA1F297C0B00618967 /* HCCollectionViewCell.m in Sources */,
+				BACBB0A71F2976C800618967 /* HCScrollForeverView.m in Sources */,
+				BACBB0B31F297A4F00618967 /* HCCollectionForeverViewCell.m in Sources */,
+				BACBB0A91F2976C800618967 /* HCShowScrollForeverViewController.m in Sources */,
+				BACBB0B21F297A4F00618967 /* HCCollectionForeverView.m in Sources */,
+				BACBB0BE1F297F8300618967 /* HCCardScrollView.m in Sources */,
+				BACBB0AB1F2976C800618967 /* main.m in Sources */,
+				BACBB0AA1F2976C800618967 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAE562131F1F2FD600624E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE562141F1F2FD600624E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAE562181F1F2FD600624E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAE562191F1F2FD600624E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAE5621C1F1F2FD600624E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BAE5621D1F1F2FD600624E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAE5621F1F1F2FD600624E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7493A8H4M8;
+				INFOPLIST_FILE = HCScrollViewForever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCScrollViewForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAE562201F1F2FD600624E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7493A8H4M8;
+				INFOPLIST_FILE = HCScrollViewForever/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.houcong.Sunny.HCScrollViewForever;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE562021F1F2FD600624E1B /* Build configuration list for PBXProject "HCScrollViewForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE5621C1F1F2FD600624E1B /* Debug */,
+				BAE5621D1F1F2FD600624E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE5621E1F1F2FD600624E1B /* Build configuration list for PBXNativeTarget "HCScrollViewForever" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE5621F1F1F2FD600624E1B /* Debug */,
+				BAE562201F1F2FD600624E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE561FF1F1F2FD600624E1B /* Project object */;
+}
