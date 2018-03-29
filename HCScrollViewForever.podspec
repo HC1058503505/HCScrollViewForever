@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "HCScrollViewForever" # 项目名称
-  s.version      = "1.0.0"        # 版本号 与 你仓库的 标签号 对应
+  s.version      = "v1.0.0"        # 版本号 与 你仓库的 标签号 对应
   s.license      = "MIT"          # 开源证书
   s.summary      = "A delightful TextField of PhoneNumber" # 项目简介
 
