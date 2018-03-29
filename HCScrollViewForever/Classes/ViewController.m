@@ -26,7 +26,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"轮播图";
+    self.title = @"轮播图演示";
     [self setupUI];
 }
 
