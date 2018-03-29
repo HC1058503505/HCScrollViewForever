@@ -85,16 +85,17 @@
 }
 
 - (void)setupTimer {
-    CGFloat scrollVWidth  = self.scrollV.frame.size.width;
+    
     // 改变UIScrollView的contentOffSet
-    __weak typeof(self) weakSelf = self;
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        NSLog(@"setupTimer");
-        [weakSelf.scrollV setContentOffset:CGPointMake(2 * scrollVWidth, 0) animated:YES];
-    }];
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
     self.timer = timer;
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     
+}
+
+- (void)timerAction {
+    CGFloat scrollVWidth  = self.scrollV.frame.size.width;
+    [self.scrollV setContentOffset:CGPointMake(2 * scrollVWidth, 0) animated:YES];
 }
 
 - (void)start {

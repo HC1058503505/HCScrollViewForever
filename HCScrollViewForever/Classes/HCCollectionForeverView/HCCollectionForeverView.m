@@ -34,11 +34,14 @@
 }
 
 - (void)setupTimer {
-    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 repeats:YES block:^(NSTimer * _Nonnull timer) {
-        [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:2 inSection:0] animated:YES];
-    }];
+    
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(timerAction) userInfo:nil repeats:YES];
     self.timer = timer;
     [[NSRunLoop currentRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
+}
+
+- (void)timerAction {
+    [self scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:2 inSection:0] animated:YES];
 }
 
 - (void)stop {
