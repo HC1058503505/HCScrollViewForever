@@ -34,7 +34,7 @@
 }
 
 - (void)btnAction {
-    [self dismissViewControllerAnimated:self completion:nil];
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

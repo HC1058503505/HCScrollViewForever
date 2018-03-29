@@ -87,7 +87,7 @@
     __weak typeof(self) weakSelf = self;
     cardCollectionV.selectedItem = ^(NSInteger index) {
         HCShowImageViewController *showVC = [[HCShowImageViewController alloc] init];
-        showVC.imageNames = self.imagesGroup[index];
+        showVC.imageNames = weakSelf.imagesGroup[index];
         [weakSelf presentViewController:showVC animated:YES completion:nil];
     };
     cardCollectionV.imagesGroup = self.imagesGroup;
@@ -102,7 +102,7 @@
     __weak typeof(self) weakSelf = self;
     scrollV.didSelectedItem = ^(NSInteger index) {
         HCShowImageViewController *showVC = [[HCShowImageViewController alloc] init];
-        showVC.imageNames = self.imagesGroup[index];
+        showVC.imageNames = weakSelf.imagesGroup[index];
         [weakSelf presentViewController:showVC animated:YES completion:nil];
     };
     [self.view addSubview:scrollV];
