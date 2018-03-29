@@ -124,7 +124,7 @@
     [self.view addSubview:cardCollectionVHoriontal];
     
     HCCardCollectionView *cardCollectionV = [[HCCardCollectionView alloc] initWithFrame:CGRectMake(10, CGRectGetMaxY(cardCollectionVHoriontal.frame) + 20, self.view.bounds.size.width - 20, 200) registerClass:[HCCollectionViewCell class]isHorizontal:NO];
-//    [cardCollectionV setWidthFactor:0.8 heightFactor:0.65];
+//    [cardCollectionV setWidthFactor:0.8 heightFactor:0.65]; 
     // 设置Cell
     cardCollectionV.configureCell = ^UICollectionViewCell *(UICollectionView *collection, NSIndexPath *indexP, NSString *reuseId) {
         HCCollectionViewCell *cell = [collection dequeueReusableCellWithReuseIdentifier:reuseId forIndexPath:indexP];
